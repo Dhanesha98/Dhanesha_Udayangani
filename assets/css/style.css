@@ -482,6 +482,7 @@ section {
   overflow: hidden;
   border-radius: 5%;
   padding: 12px;
+  height: 200px;
 }
 
 .github-link {
@@ -550,9 +551,6 @@ section {
   margin-bottom: 10px;
 }
 
-.container .row img{
-  margin: 2px;
-}
 
 /* Define the animation */
 @keyframes beat {
