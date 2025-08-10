@@ -23,7 +23,18 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
-
+.p-b-10{
+  padding-bottom: 10px;
+}
+.p-b-40{
+  padding-bottom: 40px;
+}
+.p-t-10{
+  padding-top: 10px;
+}
+.p-t-40{
+  padding-top: 40px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -318,7 +329,8 @@ section {
 }
 
 .section-title {
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .section-title h2 {
@@ -328,6 +340,7 @@ section {
   padding-bottom: 10px;
   position: relative;
   color: #123566;
+ 
 }
 
 .section-title h2::after {
@@ -341,9 +354,7 @@ section {
   left: 0;
 }
 
-.section-title p {
-  margin-bottom: 10px;
-}
+
 
 /*--------------------------------------------------------------
 # About
@@ -418,7 +429,6 @@ section {
 }
 
 .certificates .content ul li {
-  margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
@@ -446,7 +456,6 @@ section {
 .project-container {
   border: 1px solid none;
   padding: 10px;
-  margin: 25px;
   position: relative;
   overflow: hidden;
   background-color:  #ffffff;
@@ -467,7 +476,7 @@ section {
   
 }
 .image-box  img{
- 
+  height: 200px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -522,8 +531,10 @@ section {
 }
 .project-details h4{
   font-weight: 800;
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
+  padding-top: 0px !important;
+  padding-bottom: 2px !important;
 }
 
 
@@ -540,7 +551,7 @@ section {
 }
 
 .container .row img{
-  margin: 10px;
+  margin: 2px;
 }
 
 /* Define the animation */
@@ -564,19 +575,17 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #123566;
+  padding-top: 30px;
+    padding-bottom: 15px;
 }
-
+h4, h5{
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
 .container .content ul {
   list-style: none;
   padding: 0;
 }
-
-.container .content ul li {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
 .container .content ul i {
   font-size: 16px;
   margin-right: 5px;
@@ -642,5 +651,24 @@ section {
 
 .contact .info .social-links a:hover {
   color: #fff;
+}
+.custom-bullets {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.custom-bullets li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  font-size: 12px;
+  padding-left: 20px;
+  color: gray;
+}
+.custom-bullets i {
+  margin-top: 3px;
+  font-size: 12px;
 }
 
